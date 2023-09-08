@@ -1,1 +1,1 @@
-# Ninanaja araki 2.0
+# Ninja Araki 2.0
