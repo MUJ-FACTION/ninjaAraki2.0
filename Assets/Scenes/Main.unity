@@ -378,8 +378,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 50
-  m_LinearDrag: 1
+  m_Mass: 1
+  m_LinearDrag: 0
   m_AngularDrag: 1
   m_GravityScale: 3
   m_Material: {fileID: 0}
@@ -532,7 +532,7 @@ MonoBehaviour:
   playerSprite: {fileID: 2062751887}
   moveSpeed: 500
   jumpForce: 300
-  maxSpeedVertical: 3
+  maxSpeedVertical: 3.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

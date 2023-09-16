@@ -23,8 +23,8 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         // returns 1, -1 or 0 based on key inputs.
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
 
         HandleHorizontalSpriteFlip();
     }
