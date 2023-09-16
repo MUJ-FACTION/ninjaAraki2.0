@@ -46,7 +46,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float currentSpeed = horizontalInput * moveSpeed * Time.deltaTime;
+        float currentSpeed = horizontalInput * moveSpeed * Time.fixedDeltaTime;
 
         // clamping the speed into a range to keep speed in control
         float clampedSpeed = Mathf.Clamp(currentSpeed, -maxSpeedVertical, maxSpeedVertical);
